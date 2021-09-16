@@ -1,14 +1,14 @@
 import React, {FC} from 'react';
 import {Buttons} from './buttons';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import {Forms} from './Forms';
 import {Grids} from './Grids';
 import {UtilClassnames} from './UtilClassnames';
 
-type Props = {};
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './theme.css';
 
-export const Hello: FC<Props> = ({}) => {
+export const Hello: FC = ({}) => {
   return <div style={{padding: 20}}>
     <Buttons/>
     <hr/>
